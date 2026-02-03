@@ -1,0 +1,111 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.8125rem;
+    background-color: #C6C6C6;
+
+}
+
+/* layout */
+
+.container {
+    margin: 0 auto;
+    max-width: 375px; 
+    background-color: white; 
+    text-align: left;
+}
+
+article {
+    border-bottom: 25px solid #C6C6C6;
+    padding-bottom: 16px;
+}
+
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 16px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.post-header {
+    padding: 10px 10px 0 10px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.post-actions ul{
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    gap: 10px;
+}
+
+.likes,
+.comment {
+    padding-left: 13px;
+}
+
+.likes {
+    margin-bottom: 6px;
+}
+
+.comment {
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+/* content */
+
+.logo {
+    width: 127px;
+    
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post {
+    max-width: 100%;
+}
+
+.icon {
+    height: 22px;
+}
+
+.like-btn {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.like-btn.liked {
+    filter: invert(80%) sepia(50%) saturate(6000%) hue-rotate(140deg);
+    transform: scale(1.2);
+}
+
+/* typography */
+
+.name,
+.likes,
+.username {
+    font-size: 0.8125rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.location {
+    font-size: 0.75rem;   
+    font-weight: regular; 
+    margin-top: 0;
+}
+
+
+
